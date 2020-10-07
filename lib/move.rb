@@ -17,7 +17,7 @@ end
 
 #define the move method
 #3 arguments: board array, index board array which will either be X or O, and the players character which will default to X
-def move(board, index_board_array, character)
+def move(board, index_board_array, character = "X")
   board[index_board_array] = character
 end
 
